@@ -1,0 +1,56 @@
+body{
+    font-size: 100%;
+    background-image: linear-gradient(90deg, #003535 10%, #008485 90%);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+#conteudosolto{
+    border: 1px solid red;
+}
+
+#rodape-inicial{
+    text-align: center;
+    border: 1px solid red;
+    background: #003535;
+    position: static;
+    padding: 10px;
+    width: 100%;
+}
+
+#rodape-final{
+    border: 1px solid red;
+    background: #003535;
+    color: white;
+    position: static;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    bottom: 100px;
+    width: 100%;
+}
+
+#orcamento {
+    background: red;
+}
+
